@@ -72,6 +72,7 @@ nav a:hover {
 
 /* Skills section */
 #skills {
+  margin-top:30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -257,6 +258,7 @@ nav a:hover {
 
 /* education */
 #education {
+  margin-top:30px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -300,7 +302,9 @@ nav a:hover {
   font-size: 1.6rem;
 }
 /* Contact Form styles */
+
 #contact {
+  margin-top:30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -399,6 +403,7 @@ section {
 }
 
 .home {
+  margin-top:30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
