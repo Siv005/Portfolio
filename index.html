@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Website</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <!-- <a href="#">Services</a> -->
+        <a href="skills.html">Skillset</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-img">
+        <img src="dev1.avif" alt="" />
+      </div>
+      <div class="home-content">
+        <h1>Hi, It's <span>Surya Moorthy</span></h1>
+        <h3 class="typing-text">I'm a <span id="typing"></span></h3>
+        <p>
+          Hello! I'm a passionate developer to start my career in web
+          development. Welcome to my portfolio! <br />I'm a web developer with a
+          passion for creating beautiful and functional websites. I love coding
+          and learning new technologies.
+        </p>
+        <div class="social-icons">
+          <a href="linkedin.com/in/surya-moorthy-s-27599b265"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Siv005"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <!-- <a href="#"><i class="fa-brands fa-x-twitter"></i></a> -->
+          <a href="https://www.instagram.com/siva_surya_s98/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="mailto:suryasivamoorthy2001@gmail.com/"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+        <a href="./assets/resume.pdf" class="btn" download>Download resume</a>
+      </div>
+    </section>
+    <!-- <section id="skills" class="home">
+      <h1>Skillset:</h1>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fa-brands fa-html5"></i>
+          <p>HTML</p>
+
+          <div class="skill-bar">
+            <div class="html">100%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-css3-alt"></i>
+          <p>CSS</p>
+          <div class="skill-bar">
+            <div class="css">100%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-js"></i>
+          <p>JAVASCRIPT</p>
+          <div class="skill-bar">
+            <div class="js">85%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fab fa-java"></i>
+          <p>JAVA</p>
+          <div class="skill-bar">
+            <div class="java">80%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fab fa-database"></i>
+          <p>SQL</p>
+          <div class="skill-bar">
+            <div class="sql">80%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="home">
+      <h1>Projects:</h1>
+      <div class="projects-container" id="projectsContainer">
+        <!-- Projects will be dynamically inserted here -->
+    <!-- </div>
+      <button id="loadProjectsBtn" class="btn">Load Projects</button> -->
+    <!-- </section>
+    <section id="education" class="home">
+      <h1>Education:</h1>
+      <div class="education-container">
+        <div class="education-item">
+          <h3>Degree</h3>
+          <p>
+            Bachelor of engineering in Electronics and communication engineering
+          </p>
+          <p>GCE-Tirunelveli, 2019 - 2023</p>
+          <p>Percentage:81</p>
+        </div>
+        <div class="education-item">
+          <h3>HSE</h3>
+          <p>Saraswathi matric Hr sec School, 2017 - 2019</p>
+          <p>Percentage:85</p>
+        </div>
+        <div class="education-item">
+          <h3>SSLC</h3>
+          <p>Mother theresa matric Hr sec School, 2016 - 2017</p>
+          <p>Percentage:90.4</p>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section id="contact" class="home">
+      <h1>Contact:</h1>
+      <form id="contactForm">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea
+        ><br />
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p id="formResponse"></p>
+    </section> -->
+
+    <footer id="footer" class="home">
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+
+      <div class="social-icons">
+        <a href="linkedin.com/in/surya-moorthy-s-27599b265"
+          ><i class="fa-brands fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Siv005"
+          ><i class="fa-brands fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/siva_surya_s98/"
+          ><i class="fa-brands fab fa-instagram"></i>
+        </a>
+        <a href="mailto:suryasivamoorthy2001@gmail.com/"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

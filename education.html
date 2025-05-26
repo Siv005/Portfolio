@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Website</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <!-- <a href="#">Services</a> -->
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section id="education" class="home">
+      <h1>Education:</h1>
+      <div class="education-container">
+        <div class="education-item">
+          <h3>Degree</h3>
+          <p>
+            Bachelor of engineering in Electronics and communication engineering
+          </p>
+          <p>GCE-Tirunelveli, 2019 - 2023</p>
+          <p>Percentage:81</p>
+        </div>
+        <div class="education-item">
+          <h3>HSE</h3>
+          <p>Saraswathi matric Hr sec School, 2017 - 2019</p>
+          <p>Percentage:85</p>
+        </div>
+        <div class="education-item">
+          <h3>SSLC</h3>
+          <p>Mother theresa matric Hr sec School, 2016 - 2017</p>
+          <p>Percentage:90.4</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="home">
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="linkedin.com/in/surya-moorthy-s-27599b265"
+          ><i class="fa-brands fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Siv005"
+          ><i class="fa-brands fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/siva_surya_s98/"
+          ><i class="fa-brands fab fa-instagram"></i>
+        </a>
+        <a href="mailto:suryasivamoorthy2001@gmail.com/"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector("nav");
+
+        hamburger.addEventListener("click", () => {
+          nav.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
