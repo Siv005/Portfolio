@@ -13,7 +13,7 @@ const projects = [
     title: "My-Portfolio",
     description:
       "A responsive  portfolio website built with HTML, CSS, and JavaScript.using Flexbox and Grid for layout and displays my skills, projects, and contact information.",
-    link: "https://my-portfolio-website.netlify.app",
+    link: "https://my-portfolio-bot.netlify.app",
   },
   {
     title: "E-commerce website",
